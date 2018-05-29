@@ -4,14 +4,14 @@ public class ContractOffer {
 	private String id;
 	private String insurant;
 	private String insurer;
-	private int premium;
+	private String premium;
 	private int sumInsured;
 
 	public String getId() {
 		return id;
 	}
 
-	public ContractOffer(String id, String insurant, String insurer, int premium, int sumInsured) {
+	public ContractOffer(String id, String insurant, String insurer, String premium, int sumInsured) {
 		super();
 		this.id = id;
 		this.insurant = insurant;
@@ -40,11 +40,11 @@ public class ContractOffer {
 		this.insurer = insurer;
 	}
 
-	public int getPremium() {
+	public String getPremium() {
 		return premium;
 	}
 
-	public void setPremium(int premium) {
+	public void setPremium(String premium) {
 		this.premium = premium;
 	}
 

@@ -2,6 +2,8 @@ package com.tr.offer;
 
 public class ContractRequest {
 	private String insurant;
+	private int sumInsured;
+
 
 	public String getInsurant() {
 		return insurant;
@@ -19,5 +21,4 @@ public class ContractRequest {
 		this.sumInsured = sumInsured;
 	}
 
-	private int sumInsured;
 }
